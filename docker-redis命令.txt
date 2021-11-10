@@ -1,0 +1,5 @@
+1.
+docker pull redis
+
+2.
+docker run -it -d  --name my-redis -p 53179:6379  redis 
