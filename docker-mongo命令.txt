@@ -2,5 +2,6 @@
 docker pull mongo
 
 
+
 2.
 docker run --name mongo -p 27017:27017 -v f:/docker-doc/docker-dir:/data/db -e  MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin -d mongo
